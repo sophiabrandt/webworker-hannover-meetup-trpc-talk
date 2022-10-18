@@ -111,6 +111,14 @@ Keine Codegenerierung
 
 ---
 
+"nur Funktionen"
+
+---
+
+Offboarding-Pfad
+
+---
+
 # T3 Stack Demo
 
 ```ts
