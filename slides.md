@@ -11,6 +11,7 @@ info: |
 # persist drawings in exports and build
 drawings:
   persist: false
+download: true
 # use UnoCSS
 css: unocss
 ---
@@ -23,15 +24,12 @@ trpc
   <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
     <carbon:edit />
   </button>
-  <a href="https://github.com/sophiabrandt/webworker-hannover-trpc-talk" target="_blank" alt="GitHub"
+  <a href="https://github.com/sophiabrandt/webworker-hannover-meetup-trpc-talk" target="_blank" alt="GitHub"
     class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
   </a>
 </div>
 
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
 ---
 
 Sophia Brandt
@@ -78,10 +76,6 @@ Developer Experience
 
 ---
 
-modular
-
----
-
 leichtgewichtig
 
 ---
@@ -121,7 +115,7 @@ nur: TS Monorepos
 
 ---
 
-APIs von Drittanbietern
+nicht für APIs für Drittanbieter
 
 ---
 
@@ -129,12 +123,15 @@ andere Programmiersprachen als TS
 
 ---
 
-TS Development Performance (viele Endpunkte)
+TS Development Performance
+
+(viele Endpunkte)
 
 ---
 
 Support für alles außer React
 
+(React Query)
 
 ---
 
@@ -165,8 +162,8 @@ Organisationsprobleme
 
 ```mermaid {theme: 'neutral', scale: 0.8}
 sequenceDiagram
-    Database->>+Backend: SQL/NoSQL  
-    Backend-->>-Database: ORMS, etc.
+    Datenbank->>+Backend: SQL/NoSQL  
+    Backend-->>-Datenbank: SQL, ORMS, etc.
     Note over Backend,Frontend: GraphQL Schema
     Backend->>+Frontend: Go, Rust, Java, etc.
     Frontend-->>-Backend: TypeScript, Elm, etc.
@@ -176,23 +173,22 @@ sequenceDiagram
 
 ```mermaid {theme: 'neutral', scale: 0.8}
 sequenceDiagram
-    Database->>+Backend: SQL/NoSQL  
-    Backend-->>-Database: ORMS, etc.
+    Datenbank->>+Backend: SQL/NoSQL  
+    Backend-->>-Datenbank: SQL, ORMS, etc.
     Backend->>+Frontend: tRPC (TypeScript)
     Frontend-->>-Backend: tRPC (TypeScript)
 ```
-
 ---
 
 gRPC?
 
 ---
 
-Hat **nichts** mit tRPC zu tun
+remote procedure calls
 
 ---
 
-remote procedure calls
+Hat **nichts** mit tRPC zu tun
 
 ---
 
