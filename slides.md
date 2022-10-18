@@ -54,6 +54,19 @@ class="text-xl icon-btn text-blue opacity-50 !border-none !hover:text-blue">
 
 ---
 
+Slides:
+
+![QR Code](qrcode.png)
+
+[](https://webworker-hannover-meetup-trpc-talk.vercel.app/)
+<div>
+<a href="https://webworker-hannover-meetup-trpc-talk.vercel.app/" target="_blank" alt="wiki icon"
+class="text-xl icon-btn opacity-50 !border-none !hover:text-black">
+<carbon-wikis />Link</a>
+</div>
+
+---
+
 tRPC - 
 
 was & wozu? ✅
@@ -203,3 +216,17 @@ trpc?
 ---
 
 Kommunikation zwischen BE & FE
+
+---
+
+Slides:
+
+![QR Code](qrcode.png)
+
+[](https://webworker-hannover-meetup-trpc-talk.vercel.app/)
+<div>
+<a href="https://webworker-hannover-meetup-trpc-talk.vercel.app/" target="_blank" alt="wiki icon"
+class="text-xl icon-btn opacity-50 !border-none !hover:text-black">
+<carbon-wikis />Link</a>
+</div>
+
