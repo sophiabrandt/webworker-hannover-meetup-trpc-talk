@@ -56,7 +56,7 @@ class="text-xl icon-btn text-blue opacity-50 !border-none !hover:text-blue">
 
 Slides:
 
-![QR Code](qrcode.png)
+![QR Code](/qrcode.png)
 
 [](https://webworker-hannover-meetup-trpc-talk.vercel.app/)
 <div>
@@ -229,7 +229,7 @@ Kommunikation zwischen BE & FE
 
 Slides:
 
-![QR Code](qrcode.png)
+![QR Code](/qrcode.png)
 
 [](https://webworker-hannover-meetup-trpc-talk.vercel.app/)
 <div>
