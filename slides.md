@@ -17,8 +17,8 @@ exportFilename: webworker-hannover-meetup-trpc-talk-sophia-brandt
 css: unocss
 ---
 
-
 trpc
+
 # Durchgängige Typsichere APIs
 
 <div class="abs-br m-6 flex gap-2">
@@ -34,6 +34,7 @@ trpc
 ---
 
 Sophia Brandt
+
 <div>
 <a href="https://www.newcubator.com" target="_blank" alt="Newcubator"
 class="text-xl icon-btn opacity-50 !border-none !hover:text-black">
@@ -44,6 +45,12 @@ Software-Entwicklerin @newcubator GmbH</a>
 <a href="https://twitter.com/hisophiabrandt" target="_blank" alt="Twitter"
 class="text-xl icon-btn text-blue opacity-50 !border-none !hover:text-blue">
 <carbon-logo-twitter />@hisophiabrandt</a>
+</div>
+
+<div>
+<a href="https://www.rockyourcode.com" target="_blank" alt="blog"
+class="text-xl icon-btn text-cyan-600 opacity-50 !border-none !hover:text-cyan-600">
+<bi-vector-pen/>www.rockyourcode.com</a>
 </div>
 
 <ul>
@@ -60,6 +67,7 @@ Slides:
 ![QR Code](/qrcode.png)
 
 [](https://webworker-hannover-meetup-trpc-talk.vercel.app/)
+
 <div>
 <a href="https://webworker-hannover-meetup-trpc-talk.vercel.app/" target="_blank" alt="wiki icon"
 class="text-xl icon-btn opacity-50 !border-none !hover:text-black">
@@ -68,7 +76,7 @@ class="text-xl icon-btn opacity-50 !border-none !hover:text-black">
 
 ---
 
-trpc 
+trpc
 
 ## [https://trpc.io](https://trpc.io)
 
@@ -163,7 +171,6 @@ Support für alles außer React
 
 🥊 trpc vs GraphQL
 
-
 ---
 
 GraphQL
@@ -188,7 +195,7 @@ Organisationsprobleme
 
 ```mermaid {theme: 'neutral', scale: 0.8}
 sequenceDiagram
-    Datenbank->>+Backend: SQL/NoSQL  
+    Datenbank->>+Backend: SQL/NoSQL
     Backend-->>-Datenbank: SQL, ORMS, etc.
     Note over Backend,Frontend: GraphQL Schema
     Backend->>+Frontend: Go, Rust, Java, etc.
@@ -199,11 +206,12 @@ sequenceDiagram
 
 ```mermaid {theme: 'neutral', scale: 0.8}
 sequenceDiagram
-    Datenbank->>+Backend: SQL/NoSQL  
+    Datenbank->>+Backend: SQL/NoSQL
     Backend-->>-Datenbank: SQL, ORMS, etc.
     Backend->>+Frontend: tRPC (TypeScript)
     Frontend-->>-Backend: tRPC (TypeScript)
 ```
+
 ---
 
 gRPC?
@@ -237,9 +245,9 @@ Slides:
 ![QR Code](/qrcode.png)
 
 [](https://webworker-hannover-meetup-trpc-talk.vercel.app/)
+
 <div>
 <a href="https://webworker-hannover-meetup-trpc-talk.vercel.app/" target="_blank" alt="wiki icon"
 class="text-xl icon-btn opacity-50 !border-none !hover:text-black">
 <carbon-wikis />Link</a>
 </div>
-
