@@ -41,16 +41,21 @@ class="text-xl icon-btn opacity-50 !border-none !hover:text-black">
 Software-Entwicklerin @newcubator GmbH</a>
 </div>
 
-<div>
+<span>
 <a href="https://twitter.com/hisophiabrandt" target="_blank" alt="Twitter"
 class="text-xl icon-btn text-blue opacity-50 !border-none !hover:text-blue">
-<carbon-logo-twitter />@hisophiabrandt</a>
-</div>
+<carbon-logo-twitter/>@hisophiabrandt</a>
+</span> | 
+<span>
+<a href="https://fosstodon.org/@sbr" target="_blank" alt="Twitter"
+class="text-xl icon-btn text-blue opacity-50 !border-none !hover:text-blue">
+<bi-mastodon/> @sbr@fosstodon.org</a>
+</span>
 
 <div>
 <a href="https://www.rockyourcode.com" target="_blank" alt="blog"
 class="text-xl icon-btn text-cyan-600 opacity-50 !border-none !hover:text-cyan-600">
-<bi-vector-pen/>www.rockyourcode.com</a>
+<bi-vector-pen/> www.rockyourcode.com</a>
 </div>
 
 <ul>
@@ -71,7 +76,17 @@ Slides:
 <div>
 <a href="https://webworker-hannover-meetup-trpc-talk.vercel.app/" target="_blank" alt="wiki icon"
 class="text-xl icon-btn opacity-50 !border-none !hover:text-black">
-<carbon-wikis />Link</a>
+<carbon-wikis /> Link</a>
+</div>
+
+---
+
+# Danksagung
+
+<div>
+<a href="https://www.youtube.com/c/TheoBrowne1017" target="_blank" alt="wiki icon"
+class="text-xl text-red icon-btn opacity-50 !border-none !hover:text-red">
+<carbon-logo-youtube/> Theo - ping.gg</a>
 </div>
 
 ---
@@ -240,6 +255,18 @@ Kommunikation zwischen BE & FE
 
 ---
 
+Learnings 💡
+
+---
+
+TypeScript Monorepo all the way!
+
+---
+
+wie GraphQL (mit HTTP) - ohne GraphQL
+
+---
+
 Slides:
 
 ![QR Code](/qrcode.png)
@@ -249,5 +276,5 @@ Slides:
 <div>
 <a href="https://webworker-hannover-meetup-trpc-talk.vercel.app/" target="_blank" alt="wiki icon"
 class="text-xl icon-btn opacity-50 !border-none !hover:text-black">
-<carbon-wikis />Link</a>
+<carbon-wikis /> Link</a>
 </div>
