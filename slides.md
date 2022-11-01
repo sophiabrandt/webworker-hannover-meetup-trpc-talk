@@ -47,9 +47,9 @@ class="text-xl icon-btn text-blue opacity-50 !border-none !hover:text-blue">
 <carbon-logo-twitter/>@hisophiabrandt</a>
 </span> | 
 <span>
-<a href="https://fosstodon.org/@sbr" target="_blank" alt="Twitter"
+<a href="https://hachyderm.io/@sbr" target="_blank" alt="Twitter"
 class="text-xl icon-btn text-blue opacity-50 !border-none !hover:text-blue">
-<bi-mastodon/> @sbr@fosstodon.org</a>
+<bi-mastodon/> @sbr@hachyderm.io</a>
 </span>
 
 <div>
