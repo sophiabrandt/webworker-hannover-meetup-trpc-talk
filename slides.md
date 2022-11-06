@@ -41,16 +41,11 @@ class="text-xl icon-btn opacity-50 !border-none !hover:text-black">
 Software-Entwicklerin @newcubator GmbH</a>
 </div>
 
-<span>
-<a href="https://twitter.com/hisophiabrandt" target="_blank" alt="Twitter"
-class="text-xl icon-btn text-blue opacity-50 !border-none !hover:text-blue">
-<carbon-logo-twitter/>@hisophiabrandt</a>
-</span> | 
-<span>
-<a href="https://hachyderm.io/@sbr" target="_blank" alt="Twitter"
-class="text-xl icon-btn text-blue opacity-50 !border-none !hover:text-blue">
+<div>
+<a href="https://hachyderm.io/@sbr" target="_blank" alt="Mastodon"
+class="text-xl text-violet icon-btn text-blue opacity-50 !border-none !hover:text-violet">
 <bi-mastodon/> @sbr@hachyderm.io</a>
-</span>
+</div>
 
 <div>
 <a href="https://www.rockyourcode.com" target="_blank" alt="blog"
