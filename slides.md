@@ -55,9 +55,9 @@ class="text-xl icon-btn text-cyan-600 opacity-50 !border-none !hover:text-cyan-6
 
 <ul>
 <li class="text-sm">TypeScript</li>
-<li class="text-sm">Go</li>
 <li class="text-sm">Kommandozeile: (Neo)Vim, Tmux, Fish Shell</li>
 <li class="text-sm">Esperanto 💚</li>
+<li class="text-sm">Pen & paper role-playing games</li>
 </ul>
 
 ---
@@ -96,6 +96,10 @@ was & wozu? ✅
 
 ---
 
+Fernzugriff auf den BackendCode
+
+---
+
 full-stack TypeScript
 
 ---
@@ -113,10 +117,6 @@ Developer Experience
 ---
 
 leichtgewichtig
-
----
-
-Fernzugriff auf den BackendCode
 
 ---
 
@@ -156,10 +156,6 @@ tRPC
 ---
 
 nur: TS Monorepos
-
----
-
-nicht für APIs für Drittanbieter
 
 ---
 
